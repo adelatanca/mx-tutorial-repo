@@ -1,0 +1,12 @@
+[package]
+name = "escrow-meta"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies.escrow]
+path = ".."
+
+[dependencies.multiversx-sc-meta]
+version = "0.47.1"
+default-features = false
